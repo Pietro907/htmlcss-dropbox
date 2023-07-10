@@ -9,7 +9,6 @@ body {
 }
 
 /* #region header */
-
 header {
     height: 50px;
     margin: auto;
@@ -27,6 +26,7 @@ nav {
 
 .logo{
     height: 20px;
+    display: flex;
 }
 
 a {
@@ -43,14 +43,73 @@ a {
     color: var(--dropbox-white);
     padding: 0 0.5rem;
 }
+/* #endregion header */
 
-/* #region header */
+/* #region main */
+
+/* #region jumbotron */
+
+.jumbotron {
+    background-color: var(--dropbox--jumbo);
+    width: 100%;
+    height: 450px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: xxx-large;
+}
+
+.row {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.col_jumb_4 {
+    width: calc(100% / 12 * 4);
+    height: 100%;
+    margin: -2rem 0 0;
+}
+
+p {
+    font-size: x-small;
+    margin: 2rem 0;
+}
+
+.col_jumb_4 > i {
+    margin: 1.5rem 0 0;
+    font-size: xx-large;
+}
+
+.col_jumb_8 {
+    width: calc(100% /12 * 8);
+}
+
+.col_jumb_8 > img {
+    width: 620px;
+}
+/* #endregion jumbotron */
+
+
+/* #endregion main */
 
 /* #region utilities */
 
 .debug{
     background-color: rgba(247, 82, 22, 0.796);
     border: 2px dashed;
+}
+
+.btn {
+    background-color: var(--dropbox-bnt);
+    color: var(--dropbox-white);
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
 }
 
 .flex_ltf {
@@ -69,6 +128,7 @@ a {
     --dropbox-bnt: #0061ff;
     --dropbox-white: #ffffff;
     --dropbox-text-black: #181818;
+    --dropbox--jumbo: #b4d0e7;
 }
 
 /* #endregion utilities */
