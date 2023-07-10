@@ -109,14 +109,38 @@ p {
 
 .col_4 {
     width: calc(100% / 12 * 4);
-
-    height: 200px;
+    padding: 1rem;
 }
 
 .col_12 {
     width: 100%;
     height: 200px;
 }
+
+/* #region col_4 to col_12 */
+
+.single, .team, .company {
+    border: 1px solid var(--dropbox-text-black);
+}
+
+h3 {
+    margin: 1rem 0 0;
+}
+
+.cont {
+    display:flex;
+    padding: 0.5rem 0;
+}
+
+.icon {
+    padding: 0 0.5rem 0 0;
+}
+
+.text_table {
+    font-size: small;
+}
+
+/* #endregion col_4 to col_12 */
 
 /* #endregion the_plane */
 
@@ -145,6 +169,12 @@ p {
 .flex_rgt {
     display: flex;
     justify-content: end;
+    align-items: center;
+}
+
+.jst_align_ctr {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
