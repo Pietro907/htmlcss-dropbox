@@ -55,7 +55,7 @@ a {
     height: 450px;
 }
 
-.container {
+.container, .the_plane {
     width: 50%;
     margin: auto;
 }
@@ -67,7 +67,7 @@ h1 {
 
 .row {
     display: flex;
-    margin-top: 2rem;
+    margin: 2rem 0 0;
 }
 
 .col_jumb_4 {
@@ -95,6 +95,30 @@ p {
 }
 /* #endregion jumbotron */
 
+/* #region the_plane */
+
+.the_plane {
+    height: 800px;
+    margin: 5rem auto 0;
+}
+.check {
+    display: inline-block;
+    margin: 2rem 0 0;
+    padding: 0 2rem 0 0;
+}
+
+.col_4 {
+    width: calc(100% / 12 * 4);
+
+    height: 200px;
+}
+
+.col_12 {
+    width: 100%;
+    height: 200px;
+}
+
+/* #endregion the_plane */
 
 /* #endregion main */
 
