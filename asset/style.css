@@ -107,7 +107,6 @@ h1 {
 
 .col_4 {
     width: calc(100% / 12 * 4);
-    border: 1px solid var(--dropbox-light-line);
 }
 
 .row_spec{
@@ -195,21 +194,58 @@ h1 {
     width: calc(100% / 12 * 8);
 }
 
+/* #endregion enter in contact */
+
+
+/* #region contact entry */
+
 .img_contact {
-    width: 300px;
-    height: 300px;
+    background-size: cover;
+    width: 100%;
 }
 
 .enter_in_contact {
-    height: 800px;
-    margin: 5rem auto o;
+    margin: 5rem auto 0;
 }
-/* #endregion enter in contact */
 
 .n_partner {
     text-align: start;
     margin: 8rem 0 0;
 }
+
+.col_7{
+    width: calc(100% / 12 * 7);
+}
+
+.col_5 {
+    width: calc(100% / 12 * 5);
+}
+
+/* #endregion contact entry */
+
+/* #region multi-operation */
+
+.card > img {
+    width: 100%;
+}
+
+/* #region multi-operation */
+
+/* #region team that use dropbox */
+
+.col_mini_sponsor {
+    width: calc(100% / 12 * 3);
+}
+
+.col_sponsor {
+    width: calc(100%/ 12 * 8);
+}
+
+.col_12 {
+    width: 100%;
+}
+
+/* #endregion team that use dropbox */
 
 
 /* #endregion main */
@@ -221,12 +257,27 @@ h1 {
     border: 2px dashed;
 }
 
+.border {
+    border: 1px solid var(--dropbox-light-line);
+}
+
 .btn {
     background-color: var(--dropbox-bnt);
     color: var(--dropbox-white);
     text-decoration: none;
     padding: 0.5rem 0.5rem;
+    text-align: center;
 }
+
+.btn_2 {
+    background-color: var(--dropbox-white);
+    border: 1px solid var(--dropbox-light-line);
+    color: var(--dropbox-light-line);
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
 
 .gap {
     gap: 20px;
@@ -238,6 +289,14 @@ h1 {
 
 .team_2 {
     margin: 0 0 2rem;
+}
+
+.padd {
+    padding: 0 1rem;
+}
+
+.text_ctr {
+    text-align: center;
 }
 
 .flex_ltf {
@@ -258,6 +317,10 @@ h1 {
     align-items: center;
 }
 
+.light_blue {
+    background-color: var(--dropbox--jumbo);
+}
+
 :root {
     --dropbox-bnt: #0061ff;
     --dropbox-white: #ffffff;
@@ -267,3 +330,17 @@ h1 {
 }
 
 /* #endregion utilities */
+
+/* :root {
+    --drbx-black: #010001;
+    --drbx-white: #FFFFFF;
+    --drbx-bkgr-and-square6: #B5D0E6;
+    --drbx-accent: #0160FF;
+    --drbx-square1: #A3D39A;
+    --drbx-square2-alternativeFont: #60092B;
+    --drbx-square3: #0192CE;
+    --drbx-square4: #FE1C1D;
+    --drbx-big-square: #F5F4F4;
+    --drbx-square5: #D4011F;
+    --drbx-square7: #0D2580;
+    --drbx-square8: #FED831; */
