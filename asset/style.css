@@ -233,16 +233,40 @@ h1 {
 
 /* #region team that use dropbox */
 
+.container_sponsor {
+    display: flex;
+}
+
 .col_mini_sponsor {
-    width: calc(100% / 12 * 3);
+    display: flex;
 }
 
 .col_sponsor {
-    width: calc(100%/ 12 * 8);
+    width: calc(100%/ 12 * 6);
+}
+
+.col_sponsor img {
+    width: 25%;
+
 }
 
 .col_12 {
     width: 100%;
+    margin: -0.3rem 0 0;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+.square > img {
+    width: 100%;
+}
+
+.m_neg {
+    margin: 0 0 -0.3rem;
 }
 
 /* #endregion team that use dropbox */
@@ -317,9 +341,53 @@ h1 {
     align-items: center;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .light_blue {
     background-color: var(--dropbox--jumbo);
 }
+
+/* #region color square */
+
+.square_1 {
+    background-color: var(--drbx-square1);
+}
+
+.square_2 {
+    background-color: var(--drbx-square2-alternativeFont);
+}
+
+.square_3 {
+    background-color: var(--drbx-square3);
+}
+
+.square_4 {
+    background-color: var(--drbx-square4);
+}
+
+.square_5 {
+    background-color: var(--drbx-square5);
+}
+
+.square_big {
+    background-color: var(--drbx-big-square);
+}
+
+.square_6{
+    background-color: var(--dropbox--jumbo);
+}
+
+.square_7 {
+    background-color: var(--drbx-square7);
+}
+
+.square_8 {
+    background-color: var(--drbx-square8);
+}
+
+/* #endregion color square */
 
 :root {
     --dropbox-bnt: #0061ff;
@@ -327,6 +395,14 @@ h1 {
     --dropbox-text-black: #181818;
     --dropbox--jumbo: #b4d0e7;
     --dropbox-light-line: rgba(128, 128, 128, 0.286);
+    --drbx-square1: #A3D39A;
+    --drbx-square2-alternativeFont: #60092B;
+    --drbx-square3: #0192CE;
+    --drbx-square4: #FE1C1D;
+    --drbx-big-square: #F5F4F4;
+    --drbx-square5: #D4011F;
+    --drbx-square7: #0D2580;
+    --drbx-square8: #FED831;
 }
 
 /* #endregion utilities */
