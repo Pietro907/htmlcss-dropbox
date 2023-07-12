@@ -276,6 +276,17 @@ h1 {
 
 /* #endregion team that use dropbox */
 
+.faq:hover {
+    display: none;
+}
+
+.risp {
+    display: none;
+}
+
+.risp:hover {
+    display: inline;
+}
 
 /* #endregion main */
 
@@ -316,6 +327,11 @@ footer {
 
 .list_style_none > li {
     margin: 1rem 0;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
 }
 
 .short_hr_foot {
@@ -421,6 +437,12 @@ footer {
 .h2_lin_h {
     color: var(--drbx-square2-alternativeFont);
     line-height: 200px;
+}
+
+.m_auto {
+    width: 70%;
+    margin: 4rem auto;
+    text-align: center;
 }
 
 /* #region color square */
