@@ -52,10 +52,10 @@ a {
 .jumbotron {
     background-color: var(--dropbox--jumbo);
     width: 100%;
-    height: 450px;
+    height: 510px;
 }
 
-.container, .the_plane {
+.container, .the_plane, .enter_in_contact {
     width: 50%;
     margin: auto;
 }
@@ -76,14 +76,14 @@ h1 {
     margin: -2rem 0 0;
 }
 
-p {
-    font-size: x-small;
-    margin: 2rem 0;
+.p_jumb {
+    font-size: 15px;
+    padding: 2rem 0;
 }
 
 .col_jumb_4 > i {
-    margin: 1.5rem 0 0;
-    font-size: xx-large;
+    font-size: 30px;
+    padding: 1rem 0 0;
 }
 
 .col_jumb_8 {
@@ -91,66 +91,80 @@ p {
 }
 
 .col_jumb_8 > img {
-    width: 620px;
+    width: 140%;
 }
 /* #endregion jumbotron */
 
 /* #region the_plane */
 
 .the_plane {
-    height: 800px;
     margin: 5rem auto 0;
 }
 .check {
     display: inline-block;
-    margin: 2rem 0 0;
     padding: 0 2rem 0 0;
 }
 
 .col_4 {
     width: calc(100% / 12 * 4);
     border: 1px solid var(--dropbox-light-line);
-    padding: 0 1rem 1rem;
 }
 
-.col_12 {
+.row_spec{
     width: 100%;
-    height: 200px;
+    display: flex;
+    margin: 2rem 0;
+}
+
+.col_3_spec {
+    width: calc(100% / 12 * 3);
+    padding: 0 0 4rem;
+}
+
+.col_9 {
+    width: calc(100% / 12 * 9);
     border: 1px solid var(--dropbox-light-line);
-    padding: 0 1rem;
 }
 
-/* #region col_4 to col_12 */
+/* #region col_4 to col_8 */
 
-.single, .team, .company {
+.offers {
     border: 1px solid var(--dropbox-light-line);
-    padding: 1rem 0;
-    margin: 0 -1rem;
+    padding: 0.5rem 0;
 }
 
-.team_2 {
-    margin: 3rem 0;
+.offers_content {
+    padding: 1.8rem;
 }
 
-.professional {
-    padding: 0 1rem 1.5rem;
+.cost {
+    padding: 0 0 2.5rem;
 }
 
-.advanced {
-    padding: 0 1rem 1.5rem;
+.cost > h3 {
+    padding: 0 0 1rem;
 }
 
-.enterprise {
-    padding: 0 1rem 1.5rem;
+.cost > p {
+    padding: 0 0 0.2rem;
 }
 
-h3, h5 {
-    margin: 1.5rem 0 0;
+.try {
+    padding: 1rem 0 0;
+    font-size: 10px;
+}
+
+.try_link {
+    padding: 2rem 0;
 }
 
 .cont {
     display:flex;
     padding: 0.5rem 0;
+}
+
+.text_table {
+    font-size: 10px;
 }
 
 .icon {
@@ -159,10 +173,6 @@ h3, h5 {
 
 .blue {
     color: var(--dropbox-bnt);
-}
-
-.text_table {
-    font-size: small;
 }
 
 .team {
@@ -178,6 +188,30 @@ h3, h5 {
 
 /* #endregion the_plane */
 
+/* #region enter in contact */
+
+
+.col_8 {
+    width: calc(100% / 12 * 8);
+}
+
+.img_contact {
+    width: 300px;
+    height: 300px;
+}
+
+.enter_in_contact {
+    height: 800px;
+    margin: 5rem auto o;
+}
+/* #endregion enter in contact */
+
+.n_partner {
+    text-align: start;
+    margin: 8rem 0 0;
+}
+
+
 /* #endregion main */
 
 /* #region utilities */
@@ -192,6 +226,18 @@ h3, h5 {
     color: var(--dropbox-white);
     text-decoration: none;
     padding: 0.5rem 0.5rem;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.alone {
+    margin: 3rem 0 0;
+}
+
+.team_2 {
+    margin: 0 0 2rem;
 }
 
 .flex_ltf {
