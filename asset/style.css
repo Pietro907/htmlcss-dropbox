@@ -254,9 +254,9 @@ h1 {
 
 .col_12 {
     width: 100%;
-    height: 200px;
+    height: 100%;
     margin: -0.3rem 0 0;
-    display: flexs;
+    display: flex;
     
 }
 
@@ -266,9 +266,9 @@ h1 {
     padding: 50px;
 }
 
-.square > img {
+/* .square > img {
     width: 100%;
-}
+} */
 
 .m_neg {
     margin: 0 0 -0.3rem;
@@ -276,17 +276,40 @@ h1 {
 
 /* #endregion team that use dropbox */
 
-.faq:hover {
+.m_auto> h2 {
+    padding: 2rem 0;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.faq > p {
     display: none;
 }
 
-.risp {
-    display: none;
+.faq:hover > p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    
 }
 
-.risp:hover {
-    display: inline;
+
+
+.angle {
+    padding: 0 2rem;
 }
+
+.question:hover .angle {
+    transform: rotate(180deg);
+ }
+
+
+
+
 
 /* #endregion main */
 
